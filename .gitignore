@@ -1,0 +1,11 @@
+# Ignore compiler output and build directories
+Debug/
+Release/
+
+# Ignore local IDE settings
+.settings/
+
+# Ignore specific compiler generated files
+*.out
+*.obj
+*.map

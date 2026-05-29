@@ -1,0 +1,20 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "CCS Debug",
+            "type": "ccs-debug",
+            "request": "launch"
+        },
+        {
+            "name": "Asm_Blink",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Asm_Blink",
+                "resourceId": "/Asm_Blink"
+            },
+            "targetConfig": "targetConfigs/MSP430FR2355.ccxml"
+        }
+    ]
+}
