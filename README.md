@@ -1,4 +1,4 @@
-# 🚀 MSP430FR2355 Embedded Systems Design
+#  MSP430FR2355 Embedded Systems Design
 
 This repository contains my personal library of solutions, labs, and exercises from the textbook **"Embedded Systems Design using the MSP430FR2355 LaunchPad™"** by Dr. Brock J. LaMeres. 
 
@@ -6,7 +6,7 @@ The repository is structured to follow the book's "Learn by Example" approach, p
 
 ---
 
-## 🛠️ Hardware & Tools
+##  Hardware & Tools
 * **Development Board:** TI MSP430FR2355 LaunchPad™ Development Kit
 * **Microcontroller:** MSP430FR2355 (16-bit RISC architecture, 32KB FRAM, 4KB SRAM)
 * **IDE:** Code Composer Studio (CCS) v12+
@@ -14,12 +14,12 @@ The repository is structured to follow the book's "Learn by Example" approach, p
 
 ---
 
-## 📂 Repository Organization
+##  Repository Organization
 Every lesson in the textbook is structured as an independent CCS project.
 
-# 📊 Course Progress Tracker 
+#  Course Progress Tracker 
 
-### 🧩 Part 1: Assembly Language Foundations (Modules 1-12)
+###  Part 1: Assembly Language Foundations (Modules 1-12)
 * [x] **Chapter 05: Getting Started** *(First program, CCS environment, basic flashing)*
 * [x] **Chapter 06: Data Movement Instructions** *(Immediate, Register, Indexed, Symbolic, Absolute)*
 * [ ] **Chapter 07: Data Manipulation Instructions** *(Arithmetic, Logic, Shifting, Rotations)*
@@ -28,7 +28,7 @@ Every lesson in the textbook is structured as an independent CCS project.
 * [ ] **Chapter 10: The Stack & Subroutines** *(Push/Pop operations, passing arguments, `CALL`/`RET`)*
 * [ ] **Chapter 11: Interrupts in Assembly** *(Interrupt Vectors, ISRs, edge-triggering switches)*
 
-### 🚀 Part 2: Embedded C & Hardware Peripherals (Modules 13-17)
+###  Part 2: Embedded C & Hardware Peripherals (Modules 13-17)
 * [ ] **Chapter 13: Switching to C** *(Data types, standard TI headers, mixed C/ASM concepts)*
 * [ ] **Chapter 14: Digital I/O & Timers in C** *(Blinky in C, Timer_A configurations, PWM generation)*
 * [ ] **Chapter 15: Serial Communication** *(UART terminal Echo, SPI sensor interfacing, I2C protocol)*
