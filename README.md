@@ -20,8 +20,8 @@ Every lesson in the textbook is structured as an independent CCS project.
 # 📊 Course Progress Tracker 
 
 ### 🧩 Part 1: Assembly Language Foundations (Modules 1-12)
-* [ X ] **Chapter 05: Getting Started** *(First program, CCS environment, basic flashing)*
-* [ X ] **Chapter 06: Data Movement Instructions** *(Immediate, Register, Indexed, Symbolic, Absolute)*
+* [x] **Chapter 05: Getting Started** *(First program, CCS environment, basic flashing)*
+* [x] **Chapter 06: Data Movement Instructions** *(Immediate, Register, Indexed, Symbolic, Absolute)*
 * [ ] **Chapter 07: Data Manipulation Instructions** *(Arithmetic, Logic, Shifting, Rotations)*
 * [ ] **Chapter 08: Program Flow Instructions** *(Unconditional/Conditional Jumps, Loops, Branching)*
 * [ ] **Chapter 09: Digital I/O in Assembly** *(Configuring PxDIR, PxOUT, PxIN registers)*
