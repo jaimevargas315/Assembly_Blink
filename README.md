@@ -16,3 +16,21 @@ The repository is structured to follow the book's "Learn by Example" approach, p
 
 ## 📂 Repository Organization
 Every lesson in the textbook is structured as an independent CCS project.
+
+# 📊 Course Progress Tracker 
+
+### 🧩 Part 1: Assembly Language Foundations (Modules 1-12)
+* [ X ] **Chapter 05: Getting Started** *(First program, CCS environment, basic flashing)*
+* [ X ] **Chapter 06: Data Movement Instructions** *(Immediate, Register, Indexed, Symbolic, Absolute)*
+* [ ] **Chapter 07: Data Manipulation Instructions** *(Arithmetic, Logic, Shifting, Rotations)*
+* [ ] **Chapter 08: Program Flow Instructions** *(Unconditional/Conditional Jumps, Loops, Branching)*
+* [ ] **Chapter 09: Digital I/O in Assembly** *(Configuring PxDIR, PxOUT, PxIN registers)*
+* [ ] **Chapter 10: The Stack & Subroutines** *(Push/Pop operations, passing arguments, `CALL`/`RET`)*
+* [ ] **Chapter 11: Interrupts in Assembly** *(Interrupt Vectors, ISRs, edge-triggering switches)*
+
+### 🚀 Part 2: Embedded C & Hardware Peripherals (Modules 13-17)
+* [ ] **Chapter 13: Switching to C** *(Data types, standard TI headers, mixed C/ASM concepts)*
+* [ ] **Chapter 14: Digital I/O & Timers in C** *(Blinky in C, Timer_A configurations, PWM generation)*
+* [ ] **Chapter 15: Serial Communication** *(UART terminal Echo, SPI sensor interfacing, I2C protocol)*
+* [ ] **Chapter 16: Analog-to-Digital Converter (ADC)** *(Sampling internal temperature, pot sensors, single/sequence conversions)*
+* [ ] **Chapter 17: Energy Optimization** *(Configuring the Clock System (BCS) and utilizing Low-Power Modes (LPM0-LPM4))*
