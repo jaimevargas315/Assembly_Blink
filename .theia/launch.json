@@ -132,6 +132,15 @@
                 "name": "Assembly_ALU_TESTS",
                 "resourceId": "/Assembly_ALU_TESTS"
             }
+        },
+        {
+            "name": "Assembly_ALU_ROTATE_ARITH",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_ROTATE_ARITH",
+                "resourceId": "/Assembly_ALU_ROTATE_ARITH"
+            }
         }
     ]
 }
