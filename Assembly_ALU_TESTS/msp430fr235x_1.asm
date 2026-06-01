@@ -21,8 +21,14 @@ main:
             bit.b   #00010000b, R4          ; if yes then Z=0 , 00000000
                                             ; if no then Z=1  , 00010000
 
-           
-           
+            mov.b   #99, R5                 ; compare two values
+            cmp.b   #99, R5                 ; if match, Z=1
+            cmp.b   #77, R5                 ; if not, Z=0
+
+
+            mov.b   #-99, R6                ; show flags
+            tst.b   R6                      
+            
             jmp     main                    
 
 
