@@ -1,11 +1,38 @@
-# Ignore compiler output and build directories
-Debug/
-Release/
+# ==========================================
+# Code Composer Studio (CCS) Build Outputs
+# ==========================================
+# Ignore the entire build output directories 
+**/Debug/
+**/Release/
+**/configPkg/
 
-# Ignore local IDE settings
-.settings/
-
-# Ignore specific compiler generated files
-*.out
+# Ignore specific compiler/linker generated binary and map files
 *.obj
+*.out
 *.map
+*.txt
+*.hex
+*.bin
+
+# ==========================================
+# Eclipse / CCS Local User Configurations
+# ==========================================
+# Ignore local launch configurations and target execution histories
+**/.launches/
+**/.local/
+**/.xdchelp
+**/*.bak
+**/.tmp
+
+# Ignore local developer-specific layout settings 
+.metadata/
+RemoteSystemsTempFiles/
+.crf
+
+# ==========================================
+#  KEEP Crucial Project Metadata
+# ==========================================
+# CCS needs these files to recognize folders as valid projects.
+!**/.project
+!**/.cproject
+!**/.settings/

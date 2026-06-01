@@ -15,6 +15,123 @@
                 "resourceId": "/Asm_Blink"
             },
             "targetConfig": "targetConfigs/MSP430FR2355.ccxml"
+        },
+        {
+            "name": "Assembly_AddrMode1_Register",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_AddrMode1_Register",
+                "resourceId": "/Assembly_AddrMode1_Register"
+            }
+        },
+        {
+            "name": "Assembly_AddrMode2_Immediate",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_AddrMode2_Immediate",
+                "resourceId": "/Assembly_AddrMode2_Immediate"
+            }
+        },
+        {
+            "name": "Assembly_AddrMode3_Absolute",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_AddrMode3_Absolute",
+                "resourceId": "/Assembly_AddrMode3_Absolute"
+            }
+        },
+        {
+            "name": "Assembly_AddrMode5_Indirect_Register",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_AddrMode5_Indirect_Register",
+                "resourceId": "/Assembly_AddrMode5_Indirect_Register"
+            }
+        },
+        {
+            "name": "Assembly_AddrMode6_Indirect_Autoincrement",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_AddrMode6_Indirect_Autoincrement",
+                "resourceId": "/Assembly_AddrMode6_Indirect_Autoincrement"
+            }
+        },
+        {
+            "name": "Assembly_AddrMode7_Indexed",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_AddrMode7_Indexed",
+                "resourceId": "/Assembly_AddrMode7_Indexed"
+            }
+        },
+        {
+            "name": "Assembly_ALU_ADD",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_ADD",
+                "resourceId": "/Assembly_ALU_ADD"
+            }
+        },
+        {
+            "name": "Assembly_ALU_ADDC",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_ADDC",
+                "resourceId": "/Assembly_ALU_ADDC"
+            }
+        },
+        {
+            "name": "Assembly_ALU_SUB",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_SUB",
+                "resourceId": "/Assembly_ALU_SUB"
+            }
+        },
+        {
+            "name": "Assembly_ALU_SUBC",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_SUBC",
+                "resourceId": "/Assembly_ALU_SUBC"
+            }
+        },
+        {
+            "name": "Assembly_ALU_Logic",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_Logic",
+                "resourceId": "/Assembly_ALU_Logic"
+            }
+        },
+        {
+            "name": "Assembly_ALU_BS_BC",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_BS_BC",
+                "resourceId": "/Assembly_ALU_BS_BC"
+            }
+        },
+        {
+            "name": "Assembly_ALU_TESTS",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_ALU_TESTS",
+                "resourceId": "/Assembly_ALU_TESTS"
+            }
         }
     ]
 }
