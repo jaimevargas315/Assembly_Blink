@@ -159,6 +159,42 @@
                 "name": "Assembly_Flow_Carry_Jumps",
                 "resourceId": "/Assembly_Flow_Carry_Jumps"
             }
+        },
+        {
+            "name": "Assembly_Flow_Zero_Jumps",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_Zero_Jumps",
+                "resourceId": "/Assembly_Flow_Zero_Jumps"
+            }
+        },
+        {
+            "name": "Assembly_Flow_Inequality_Jumps",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_Inequality_Jumps",
+                "resourceId": "/Assembly_Flow_Inequality_Jumps"
+            }
+        },
+        {
+            "name": "Assembly_Flow_While_Loops",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_While_Loops",
+                "resourceId": "/Assembly_Flow_While_Loops"
+            }
+        },
+        {
+            "name": "Assembly_Flow_For_Loops",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_For_Loops",
+                "resourceId": "/Assembly_Flow_For_Loops"
+            }
         }
     ]
 }

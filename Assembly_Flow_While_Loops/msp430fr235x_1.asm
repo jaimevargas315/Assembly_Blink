@@ -15,21 +15,26 @@ StopWDT     mov.w   #WDTPW+WDTHOLD,&WDTCTL  ; Stop WDT
 ;           Main loop here
 ;------------------------------------------------------------------------------
 
-init:
-            bic.w   #LOCKLPM5, &PM5CTL0     ; Disable the GPIO power-on HighZ
-            
-            bis.b   #01h,   &P1DIR          ; Setting the P1.0 as an output (P1.0 = LED1)
-            mov.b   #00h,   &P1OUT          ; Initialize P1.0 to a known low state
-main:
-            xor.b   #01h,   &P1OUT          ; toggle P1.0 (LED1)
+while1:                                     ; while var == 3
+        cmp.w   #3, Var1                    ; Var1 - 3 = ?
+        jnz     end_while1
 
-            mov.w   #0FFFFh, R4             ; puts big number in R4
-delay:      
-            dec.w   R4                      ; decrement R4
-            jnz     delay                   ; repeat until R4 = 0
-            
-            jmp     main                    ; repeat main loop forever
-            nop
+        mov.w   #1, Var2
+        jmp     while1
+end_while1:
+
+while2:
+        mov.w   #2, Var2
+        jmp     while2
+        nop
+end_while2:
+;------------------------------------------------------------------------------
+;           Memory Allocation
+;------------------------------------------------------------------------------
+        .data
+        .retain
+Var1:   .short  3
+Var2:    .space  2
 
 ;------------------------------------------------------------------------------
 ;           Stack pointer Definition
