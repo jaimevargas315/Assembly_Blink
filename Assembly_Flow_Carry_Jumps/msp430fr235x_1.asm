@@ -14,32 +14,21 @@ StopWDT     mov.w   #WDTPW+WDTHOLD,&WDTCTL  ; Stop WDT
 ;------------------------------------------------------------------------------
 ;           Main loop here
 ;------------------------------------------------------------------------------
-
+init:
+        mov.b   #0,     R4
 main:
-            mov.w   #Consts,    R5
-            
-            mov.b   @R5,        R6
-            inc     R5
-            mov.b   @R5,        R7
-            inc     R5
-            mov.w   @R5,        R8
-            incd    R5
-            mov.w   @R5,        R9
-                        
+        mov.b   #255,   R5
+        add.b   #1,     R5
+        jc      CarrySet                    ; jump if carry
+        jnc     CarryClear                  ; jump if no carry
+CarrySet:
+        mov.b   #1,     R4
+        jmp     main
 
-            jmp     main
-            nop
-
-
-;------------------------------------------------------------------------------
-;           Memory Allocation
-;------------------------------------------------------------------------------
-            .data                   ; go to memory @ 2000h
-            .retain
-Consts:     .short      1234h
-            .short      5678h
-            .short      9ABCh
-
+CarryClear:
+        mov.b   #2,     R4                       
+        jmp     main
+        nop
 ;------------------------------------------------------------------------------
 ;           Stack pointer Definition
 ;------------------------------------------------------------------------------

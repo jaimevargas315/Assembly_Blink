@@ -16,31 +16,35 @@ StopWDT     mov.w   #WDTPW+WDTHOLD,&WDTCTL  ; Stop WDT
 ;------------------------------------------------------------------------------
 
 main:                   
-            mov.b  #00000001, R4
-            clrc                            ; C=0                          
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
-            rla.b   R4
+            mov.b   #25,    R8
+            clrc
+            rla.b   R8                      ; multiply by rotating left
+            rla.b   R8
+            rla.b   R8
+            rla.b   R8
 
-            mov.b  #10000000, R5
-            clrc                            ; C=0                          
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
-            rra.b   R5
+            mov.b   #224,   R9          
+            clrc
+            rrc.b   R9                      ; divide by rotating right
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+            clrc
+            rrc.b   R9
+
             jmp     main                    
-
+            nop
 
 
 ;------------------------------------------------------------------------------

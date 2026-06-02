@@ -24,6 +24,7 @@ main:
             mov.w   6(R4), 14(R4)           ; copy contents at 2006h to 200Eh
 
             jmp     main
+            nop
 
 ;------------------------------------------------------------------------------
 ;           Memory Allocation

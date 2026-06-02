@@ -16,29 +16,20 @@ StopWDT     mov.w   #WDTPW+WDTHOLD,&WDTCTL  ; Stop WDT
 ;------------------------------------------------------------------------------
 
 main:
-            mov.w   #Consts,    R5
-            
-            mov.b   @R5,        R6
-            inc     R5
-            mov.b   @R5,        R7
-            inc     R5
-            mov.w   @R5,        R8
-            incd    R5
-            mov.w   @R5,        R9
-                        
+                               
+            mov.w   #0, R4
+            jmp     do_this_1st
 
-            jmp     main
-            nop
+do_this_2nd:
+            mov.w   #2, R4
+            jmp     done
 
+do_this_1st:
+            mov.w   #1, R4
+            jmp     do_this_2nd
 
-;------------------------------------------------------------------------------
-;           Memory Allocation
-;------------------------------------------------------------------------------
-            .data                   ; go to memory @ 2000h
-            .retain
-Consts:     .short      1234h
-            .short      5678h
-            .short      9ABCh
+done:
+            br      #main
 
 ;------------------------------------------------------------------------------
 ;           Stack pointer Definition

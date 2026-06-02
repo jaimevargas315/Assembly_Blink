@@ -37,6 +37,7 @@ main:
             add.b   #127, R11
 
             jmp     main
+            nop
 
 
 

@@ -23,6 +23,8 @@ main:
             mov.w   @R6, R7                 ; put contents of address held in R6 into R7
 
             jmp     main
+            nop
+            
 
 ;------------------------------------------------------------------------------
 ;           Memory Allocation

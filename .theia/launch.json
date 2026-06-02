@@ -141,6 +141,24 @@
                 "name": "Assembly_ALU_ROTATE_ARITH",
                 "resourceId": "/Assembly_ALU_ROTATE_ARITH"
             }
+        },
+        {
+            "name": "Assembly_Flow_Jump_Branch",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_Jump_Branch",
+                "resourceId": "/Assembly_Flow_Jump_Branch"
+            }
+        },
+        {
+            "name": "Assembly_Flow_Carry_Jumps",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_Carry_Jumps",
+                "resourceId": "/Assembly_Flow_Carry_Jumps"
+            }
         }
     ]
 }
