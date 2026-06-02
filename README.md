@@ -1,8 +1,8 @@
 #  MSP430FR2355 Embedded Systems Design
 
-This repository contains my personal library of solutions, labs, and exercises from the textbook **"Embedded Systems Design using the MSP430FR2355 LaunchPad™"** by Dr. Brock J. LaMeres. 
+This repository contains my personal library of exercises from the textbook **"Embedded Systems Design using the MSP430FR2355 LaunchPad™"** by Dr. Brock J. LaMeres. 
 
-The repository is structured to follow the book's "Learn by Example" approach, progressing through individual, self-contained Code Composer Studio (CCS) projects. It tracks my journey from low-level **MSP430 Assembly** register manipulation up to high-level **Embedded C** peripheral configurations.
+The repository is structured to follow the book's "Learn by Example" approach, progressing through individual Code Composer Studio (CCS) projects. From **MSP430 Assembly** register manipulation up to **Embedded C** peripheral configurations.
 
 ---
 
