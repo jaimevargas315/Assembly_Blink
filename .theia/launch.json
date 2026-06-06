@@ -195,6 +195,123 @@
                 "name": "Assembly_Flow_For_Loops",
                 "resourceId": "/Assembly_Flow_For_Loops"
             }
+        },
+        {
+            "name": "Assembly_Flow_If_Else",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_If_Else",
+                "resourceId": "/Assembly_Flow_If_Else"
+            }
+        },
+        {
+            "name": "Assembly_Flow_Switch_Case",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_Switch_Case",
+                "resourceId": "/Assembly_Flow_Switch_Case"
+            }
+        },
+        {
+            "name": "Assembly_Flow_Design_From_Flowchart",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Flow_Design_From_Flowchart",
+                "resourceId": "/Assembly_Flow_Design_From_Flowchart"
+            }
+        },
+        {
+            "name": "Assembly_Dig_IO_Outputs_n_LEDs",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Dig_IO_Outputs_n_LEDs",
+                "resourceId": "/Assembly_Dig_IO_Outputs_n_LEDs"
+            }
+        },
+        {
+            "name": "Assembly_Dig_IO_Inputs_n_Polling",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Dig_IO_Inputs_n_Polling",
+                "resourceId": "/Assembly_Dig_IO_Inputs_n_Polling"
+            }
+        },
+        {
+            "name": "Assembly_Stack",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Stack",
+                "resourceId": "/Assembly_Stack"
+            }
+        },
+        {
+            "name": "Assembly_Subroutines",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Subroutines",
+                "resourceId": "/Assembly_Subroutines"
+            }
+        },
+        {
+            "name": "Assembly_IRQ_Port4_S1",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_IRQ_Port4_S1",
+                "resourceId": "/Assembly_IRQ_Port4_S1"
+            }
+        },
+        {
+            "name": "Assembly_Timers_ACLK_Overflow",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_ACLK_Overflow",
+                "resourceId": "/Assembly_Timers_ACLK_Overflow"
+            }
+        },
+        {
+            "name": "Assembly_Timers_ACLK_Overflow_12bit",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_ACLK_Overflow_12bit",
+                "resourceId": "/Assembly_Timers_ACLK_Overflow_12bit"
+            }
+        },
+        {
+            "name": "Assembly_Timers_SMCLK_Overflow",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_SMCLK_Overflow",
+                "resourceId": "/Assembly_Timers_SMCLK_Overflow"
+            }
+        },
+        {
+            "name": "Assembly_Timers_SMCLK_Overflow_Div4",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_SMCLK_Overflow_Div4",
+                "resourceId": "/Assembly_Timers_SMCLK_Overflow_Div4"
+            }
+        },
+        {
+            "name": "Assembly_Timers_Compare_CCR0",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_Compare_CCR0",
+                "resourceId": "/Assembly_Timers_Compare_CCR0"
+            }
         }
     ]
 }

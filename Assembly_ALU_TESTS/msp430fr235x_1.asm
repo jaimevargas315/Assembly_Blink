@@ -29,7 +29,8 @@ main:
             mov.b   #-99, R6                ; show flags
             tst.b   R6                      
             
-            jmp     main                    
+            jmp     main              
+            nop      
 
 
 

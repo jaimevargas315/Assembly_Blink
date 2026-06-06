@@ -26,6 +26,7 @@ main:
             mov.b   #10101010b, R9          ; put 55h into R9
             mov.b   #'B', R10               ; put 'B' into R10
             jmp     main
+            nop
 
 ;------------------------------------------------------------------------------
 ;           Stack pointer Definition
