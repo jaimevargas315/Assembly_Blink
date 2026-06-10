@@ -312,6 +312,150 @@
                 "name": "Assembly_Timers_Compare_CCR0",
                 "resourceId": "/Assembly_Timers_Compare_CCR0"
             }
+        },
+        {
+            "name": "Assembly_Timers_Compare_CCR1_CCR0_PWM",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_Compare_CCR1_CCR0_PWM",
+                "resourceId": "/Assembly_Timers_Compare_CCR1_CCR0_PWM"
+            }
+        },
+        {
+            "name": "Assembly_Timers_Capture_SW_CCR0",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "Assembly_Timers_Capture_SW_CCR0",
+                "resourceId": "/Assembly_Timers_Capture_SW_CCR0"
+            }
+        },
+        {
+            "name": "C_Blink_LED",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Blink_LED",
+                "resourceId": "/C_Blink_LED"
+            }
+        },
+        {
+            "name": "C_While_Loops",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_While_Loops",
+                "resourceId": "/C_While_Loops"
+            }
+        },
+        {
+            "name": "C_For_Loops",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_For_Loops",
+                "resourceId": "/C_For_Loops"
+            }
+        },
+        {
+            "name": "C_If_Else",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_If_Else",
+                "resourceId": "/C_If_Else"
+            }
+        },
+        {
+            "name": "C_Switch_Case",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Switch_Case",
+                "resourceId": "/C_Switch_Case"
+            }
+        },
+        {
+            "name": "C_Arithmetic",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Arithmetic",
+                "resourceId": "/C_Arithmetic"
+            }
+        },
+        {
+            "name": "C_Bitwise_Logic",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Bitwise_Logic",
+                "resourceId": "/C_Bitwise_Logic"
+            }
+        },
+        {
+            "name": "C_Dig_IO_Outputs_n_LEDs",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Dig_IO_Outputs_n_LEDs",
+                "resourceId": "/C_Dig_IO_Outputs_n_LEDs"
+            }
+        },
+        {
+            "name": "C_Dig_IO_Inputs_n_Polling",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Dig_IO_Inputs_n_Polling",
+                "resourceId": "/C_Dig_IO_Inputs_n_Polling"
+            }
+        },
+        {
+            "name": "C_IRQs_Port4_S1",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_IRQs_Port4_S1",
+                "resourceId": "/C_IRQs_Port4_S1"
+            }
+        },
+        {
+            "name": "C_Timers_ACLK_Overflow",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Timers_ACLK_Overflow",
+                "resourceId": "/C_Timers_ACLK_Overflow"
+            }
+        },
+        {
+            "name": "C_Timers_ACLK_Overflow_12bit",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Timers_ACLK_Overflow_12bit",
+                "resourceId": "/C_Timers_ACLK_Overflow_12bit"
+            }
+        },
+        {
+            "name": "C_Timers_SMCLK_Overflow",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Timers_SMCLK_Overflow",
+                "resourceId": "/C_Timers_SMCLK_Overflow"
+            }
+        },
+        {
+            "name": "C_Timers_SMCLK_Overflow_Div4",
+            "type": "ccs-debug",
+            "request": "launch",
+            "projectInfo": {
+                "name": "C_Timers_SMCLK_Overflow_Div4",
+                "resourceId": "/C_Timers_SMCLK_Overflow_Div4"
+            }
         }
     ]
 }
